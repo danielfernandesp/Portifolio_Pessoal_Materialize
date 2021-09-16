@@ -1,0 +1,109 @@
+/* Definicoes para o container */
+.container{
+    width: 85%;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #373737;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    border-radius: 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #c0b283;
+    background-color: #000;
+    border-radius: 2px;
+}
+/* Scrollbar Firefox */
+:root{
+    scrollbar-color: light;
+    scrollbar-width: thin !important;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 70;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    text-align: center;
+}
+.general{
+    font-family: 'Raleway', sans-serif;
+}
+.general > h2{
+    font-weight: 500;
+    color: #c0b283;
+}
+footer{
+    text-align: center;
+    background-color: #373737;
+    height: 4em;
+    color: #f4f4f4;
+}
+.options{
+    color: #c0b283;
+    transition: 300ms;
+    font-weight: bold;
+}
+aside{
+    background-color: #f4f4f4;
+    color: #dcd0c0;
+    height: 80vh;
+}
+.align{
+    display: flex !important;
+    align-items: center !important;
+}
+.align>img{
+    margin: 0 1rem 
+}
+.profile{
+    width: 44px;
+    height: auto;
+}
+.about{
+    background-color: #ede7f6;
+}
+.row{
+    margin-bottom: 0;
+}
+/* Configuração da Navbar */
+nav{
+    background-color: #c0b283;
+}
+/* Configuração Icones - Social Media */
+.gridIcons{
+    margin-left: 4.2em;
+}
+.gridIcons a{
+    color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    transition: text-shadow 0.5s;
+}
+.gridIcons a:active, .gridIcons a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px whitesmoke;
+}
+iframe{
+    height: 100%;
+    padding: 32px;
+}
+.containerforIframe{
+    height: 84vh;
+    padding: 0 !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
